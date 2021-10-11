@@ -31,7 +31,7 @@ module.exports = ({ env }) => ({
 //         port: env.int('DATABASE_PORT', 27017),
 //         database: env('DATABASE_NAME', 'STRAPI4SUBSEA'),
 //         username: env('DATABASE_USERNAME', 'Admin'),
-//         password: env('DATABASE_PASSWORD', '123@#Zxc1'),
+//         password: env('DATABASE_PASSWORD', '1qaz2wsx@'),
 //       },
 //       options: {
 //         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
