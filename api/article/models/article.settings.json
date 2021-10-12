@@ -48,6 +48,14 @@
     "author": {
       "via": "articles",
       "model": "writer"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Draft",
+        "Review",
+        "Publish"
+      ]
     }
   }
 }
