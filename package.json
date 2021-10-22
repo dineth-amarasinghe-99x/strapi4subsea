@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "node node_modules/strapi/bin/strapi.js start",
-    "build": "node --max-old-space-size=8192 strapi build",
+    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -16,8 +16,6 @@
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "^3.6.8",
-    "strapi-connector-mongoose": "3.6.8",
-    "strapi-hook-knex": "^3.0.0-beta.17.8",
     "strapi-plugin-ckeditor5": "^1.13.0",
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
