@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "node node_modules/strapi/bin/strapi.js start",
-    "build": "strapi build",
+    "build": "node --max-old-space-size=8192 strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
