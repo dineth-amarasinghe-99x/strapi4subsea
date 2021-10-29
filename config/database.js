@@ -26,11 +26,11 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: "mysql",
-        host: env('DATABASE_HOST', 'strapi-cms-database.mysql.database.azure.com'),
+        host: env('DATABASE_HOST'),
         port: env('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'strapi'),
-        username: env('DATABASE_USERNAME', 'strapi-cms@strapi-cms-database'),
-        password: env('DATABASE_PASSWORD', 'Sea@1234'),
+        database: env('DATABASE_NAME'),
+        username: env('DATABASE_USERNAME'),
+        password: env('DATABASE_PASSWORD'),
       },
       options: {
         useNullAsDefault: true,
